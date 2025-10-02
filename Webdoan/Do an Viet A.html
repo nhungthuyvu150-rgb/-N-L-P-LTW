@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ẩm Thực Việt Á</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fefefe;
+    }
+    header {
+      background: #c62828;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white; margin: 0 15px; text-decoration: none;
+    }
+    .banner {
+      background: url('https://source.unsplash.com/1600x500/?vietnamese-food') no-repeat center/cover;
+      height: 300px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 30px;
+    }
+    .item {
+      background: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .item button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      border: none;
+      background: #c62828;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🍲 Ẩm Thực Việt Á</h1>
+    <p>Đậm đà hương vị Việt – Giao hàng tận nơi</p>
+  </header>
+
+  <nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Menu</a>
+    <a href="#">Giỏ hàng</a>
+    <a href="#">Liên hệ</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <section class="menu">
+    <div class="item">
+      <img src="https://media.urbanistnetwork.com/saigoneer/article-images/legacy/y30H0qWh.jpg" alt="Phở">
+      <p>65.000đ</p>
+      <button>Thêm vào giỏ</button>
+    </div>
+    <div class="item">
+      <img src="https://bizweb.dktcdn.net/100/442/328/files/bun-cha-mon-dac-san-binh-di-cua-nguoi-ha-noi-1.jpg?v=1638938776859" alt="Bún chả">
+      <h3>Bún Chả Hà Nội</h3>
+      <p>55.000đ</p>
+      <button>Thêm vào giỏ</button>
+    </div>
+    <div class="item">
+      <img src="https://cdn.phonebooky.com/blog/wp-content/uploads/2018/04/27112926/bon-pho-cover.jpg" alt="Gỏi cuốn">
+      <h3>Gỏi Cuốn Tôm Thịt</h3>
+      <p>40.000đ (3 cuốn)</p>
+      <button>Thêm vào giỏ</button>
+    </div>
+    <div class="item">
+      <img src="https://xebanhmithonhiky.vn/wp-content/uploads/2020/04/Banh-mi-thit-nuong.jpg" alt="Bánh mì">
+      <h3>Bánh Mì Thịt Nướng</h3>
+      <p>25.000đ</p>
+      <button>Thêm vào giỏ</button>
+    </div>
+    <div class="item">
+      <img src="https://asianinspirations.com.au/wp-content/uploads/2018/12/R01583_Vietnamese_Iced_Coffee.jpg" alt="Cà phê sữa đá">
+      <h3>Cà Phê Sữa Đá</h3>
+      <p>20.000đ</p>
+      <button>Thêm vào giỏ</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 0909 123 456 | 📍 123 Nguyễn Trãi, Q.1, TP.HCM</p>
+    <p>© 2025 Ẩm Thực Việt Á</p>
+  </footer>
+</body>
+</html>
